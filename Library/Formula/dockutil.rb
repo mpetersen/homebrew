@@ -15,7 +15,7 @@ class Dockutil < Formula
 
   resource "plistlib" do
     url "https://hg.python.org/cpython/raw-file/tip/Lib/plistlib.py"
-    sha256 "531595d63ee4b7de6a168fc4ca715c475be9700de93455a7c73a176a1e1f3345"
+    sha256 "0bfad4fec2a81538463aefea96d7206a9258a84ee0e564cb571ff36d6bdfc250"
   end
 
   def install
