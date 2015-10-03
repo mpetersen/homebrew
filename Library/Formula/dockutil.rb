@@ -14,7 +14,7 @@ class Dockutil < Formula
   depends_on :python if MacOS.version <= :snow_leopard
 
   resource "plistlib" do
-    url "https://pypi.python.org/packages/source/p/plist/plist-0.2.tar.gz"
+    url "https://hg.python.org/cpython/raw-file/tip/Lib/plistlib.py"
     sha256 "531595d63ee4b7de6a168fc4ca715c475be9700de93455a7c73a176a1e1f3345"
   end
 
